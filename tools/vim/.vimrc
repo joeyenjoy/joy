@@ -66,5 +66,9 @@ func! RunPython()
     endif
 endfunc
   
-  
+
+
+map <F3> :NERDTreeMirror<CR>
+map <F3> :NERDTreeToggle<CR>
+
 colorscheme darkblue
